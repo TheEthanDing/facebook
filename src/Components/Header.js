@@ -27,26 +27,28 @@ const Header = () => {
                 <input placeholder='Search Facebook' type="text" />
             </div>
 
-            <div className="header__option">
-                <HomeIcon fontsize='large' />
-            </div>
-            <div className="header__option">
-                <FlagIcon fontsize='large' />
-            </div>
-            <div className="header__option">
-                <SubscriptionsOutlinedIcon fontsize='large' />
-            </div>
-            <div className="header__option">
-                <StorefrontOutlinedIcon fontsize='large' />
-            </div>
-            <div className="header__option">
-                <SupervisedUserCircleIcon fontsize='large' />
+            <div className="header__center">
+                <div className="header__option header__option--active">
+                    <HomeIcon fontsize='large' />
+                </div>
+                <div className="header__option">
+                    <FlagIcon fontsize='large' />
+                </div>
+                <div className="header__option">
+                    <SubscriptionsOutlinedIcon fontsize='large' />
+                </div>
+                <div className="header__option">
+                    <StorefrontOutlinedIcon fontsize='large' />
+                </div>
+                <div className="header__option">
+                    <SupervisedUserCircleIcon fontsize='large' />
+                </div>
             </div>
 
             <div className='header__right'>
                 <div className='header__info'>
-                    <Avatar />
-                    <h4>Frankie</h4>
+                    <Avatar src='https://media-exp1.licdn.com/dms/image/C4E03AQEwFY4_QX5jMQ/profile-displayphoto-shrink_200_200/0/1598896724054?e=1614816000&v=beta&t=PQpicpOyaEohktSBb9KnFveQMORfAAi0yLnazi1rdL8'/>
+                    <h4>Ethan</h4>
                 </div>
 
                 <IconButton>
