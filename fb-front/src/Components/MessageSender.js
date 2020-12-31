@@ -96,15 +96,15 @@ const MessageSender = () => {
             <div className='messageSender__bottom'>
                 <div className='messageSender__option'>
                     <VideocamIcon style={{ color: 'red' }} />
-                    <h3>Live Video</h3>
+                    <h4>Live Video</h4>
                 </div>
                 <div className='messageSender__option'>
                     <PhotoLibraryIcon style={{ color: 'green' }} />
-                    <h3>Photo/Video</h3>
+                    <h4>Photo/Video</h4>
                 </div>
                 <div className='messageSender__option'>
                     <InsertEmoticonIcon style={{ color: 'orange' }} />
-                    <h3>Feeling/Activity</h3>
+                    <h4>Feeling/Activity</h4>
                 </div>
             </div>
 

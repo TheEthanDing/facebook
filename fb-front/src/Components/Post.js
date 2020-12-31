@@ -24,6 +24,16 @@ const Post = ({ profilePic, imgName, username, timestamp, message }) => {
                 <p>{message}</p>
             </div>
 
+            {
+                imgName ? (
+                    <div className="post__image">
+                        <img src={`https://facebook-clone-ethan.herokuapp.com/retrieve/images/single?name=${imgName}`} />
+                    </div>
+                ) : (
+                        console.log('No image here')
+                    )
+            }
+
             <div className='post__options'>
                 <div className='post__option'>
                     <ThumbUpIcon />
