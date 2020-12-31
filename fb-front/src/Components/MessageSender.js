@@ -63,6 +63,8 @@ const MessageSender = () => {
 
         setImageUrl('')
         setInput('')
+
+        setTimeout(function () { window.location.reload(); }, 10)
     }
 
     const savePost = async (postData) => {
